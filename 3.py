@@ -1,7 +1,7 @@
 def solve():
-    arr=list(map(int,input().split()))
-    larget=arr[0]
-    for num in arr:
+    num=list(map(int,input().split()))
+    larget=num[0]
+    for num in larget:
         if num<larget:
             larget=num
             print(num)
